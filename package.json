@@ -1,0 +1,25 @@
+{
+  "name": "cascading-merge-action",
+  "version": "1.0.0",
+  "description": "Automatically merge changes from a base branch in to any dependent branches",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mheap/cascading-merge-action.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "merge",
+    "automatic"
+  ],
+  "author": "Michael Heap <m@michaelheap.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mheap/cascading-merge-action/issues"
+  },
+  "homepage": "https://github.com/mheap/cascading-merge-action#readme"
+}
