@@ -2,9 +2,10 @@
   "name": "cascading-merge-action",
   "version": "1.0.0",
   "description": "Automatically merge changes from a base branch in to any dependent branches",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "npx @vercel/ncc build && npx convert-action"
   },
   "repository": {
     "type": "git",
