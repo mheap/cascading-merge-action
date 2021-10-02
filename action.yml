@@ -1,0 +1,10 @@
+name: Cascading Merge
+description: Automatically merge branches in to each other when a base branch changes
+inputs:
+  token:
+    description: The GITHUB_TOKEN to use
+    default: ${{ github.token }}
+    required: true
+  branches:
+    description: The branches to merge, one per line. The branches at the top will be merged into lower branches
+    required: true
